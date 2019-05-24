@@ -27,7 +27,7 @@ class TwitterStreamer():
         #filter the tweet; method from stream clasas
         stream.filter(track=hash_tag_list)
    
-#class that print the tweets; Standard out Listener
+#class that print the tweets; Standard out ; printing out live tweets
 class TwitterListener(StreamListener):
     
     
