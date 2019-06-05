@@ -6,7 +6,7 @@ API_KEY='AIzaSyAxzUUX1o6PBhJNGZTlV9FB5Fw_EecVanU'
 service = discovery.build('commentanalyzer', 'v1alpha1', developerKey=API_KEY)
 
 analyze_request = {
-  'comment': { 'text': 'Tangina nyo. : ' },
+  'comment': { 'text': 'Birth date: 7 October 1991' },
   'requestedAttributes': {'TOXICITY': {}}
 }
 
